@@ -1,0 +1,2573 @@
+{
+  "nodes": [
+    {
+      "id": "N0",
+      "label": "사람",
+      "properties": {
+        "name": "오카자키 토모야"
+      }
+    },
+    {
+      "id": "N1",
+      "label": "사람",
+      "properties": {
+        "name": "후루카와 나기사"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "사람",
+      "properties": {
+        "name": "후지바야시 쿄"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "사람",
+      "properties": {
+        "name": "후지바야시 료"
+      }
+    },
+    {
+      "id": "N9",
+      "label": "사람",
+      "properties": {
+        "name": "후루카와 아키오"
+      }
+    },
+    {
+      "id": "N10",
+      "label": "사람",
+      "properties": {
+        "name": "후루카와 사나에"
+      }
+    },
+    {
+      "id": "N13",
+      "label": "장소",
+      "properties": {
+        "name": "히카리자카 고등학교"
+      }
+    },
+    {
+      "id": "N14",
+      "label": "장소",
+      "properties": {
+        "name": "후루카와 빵집"
+      }
+    },
+    {
+      "id": "N6",
+      "label": "사람",
+      "properties": {
+        "name": "이치노세 코토미"
+      }
+    },
+    {
+      "id": "N7",
+      "label": "사람",
+      "properties": {
+        "name": "이부키 후코"
+      }
+    },
+    {
+      "id": "N8",
+      "label": "사람",
+      "properties": {
+        "name": "스노하라 요헤이"
+      }
+    },
+    {
+      "id": "N11",
+      "label": "사람",
+      "properties": {
+        "name": "오카자키 나오유키"
+      }
+    },
+    {
+      "id": "N12",
+      "label": "동물",
+      "properties": {
+        "name": "보탄"
+      }
+    },
+    {
+      "id": "N15",
+      "label": "장소",
+      "properties": {
+        "name": "동아리방"
+      }
+    },
+    {
+      "id": "N5",
+      "label": "사람",
+      "properties": {
+        "name": "사카가미 토모요"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "사람",
+      "properties": {
+        "name": "오카자키 우시오"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "GOES_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "MEETS",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "INTRODUCED_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "INTRODUCED_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N4",
+      "properties": {
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "HAS_CONVERSATION",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "GOES_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N14",
+      "properties": {
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "MEETS",
+      "start_node_id": "N0",
+      "end_node_id": "N9",
+      "properties": {
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "MEETS",
+      "start_node_id": "N0",
+      "end_node_id": "N10",
+      "properties": {
+        "episode_number": "SSeason 1E01"
+      }
+    },
+    {
+      "type": "HELPS",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "activity": "create recruiting posters",
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "MEETS",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "context": "at school",
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "MEETS",
+      "start_node_id": "N0",
+      "end_node_id": "N7",
+      "properties": {
+        "context": "in classroom",
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "CONFISCATES",
+      "start_node_id": "N0",
+      "end_node_id": "N7",
+      "properties": {
+        "item": "knife",
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "INVITES",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "activity": "basketball",
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "FRIENDS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "FATHER_OF",
+      "start_node_id": "N11",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "LOCATED_AT",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "LOCATED_AT",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "LOCATED_AT",
+      "start_node_id": "N6",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "LOCATED_AT",
+      "start_node_id": "N7",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "LOCATED_AT",
+      "start_node_id": "N8",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E02"
+      }
+    },
+    {
+      "type": "WALKS_FROM",
+      "start_node_id": "N0",
+      "end_node_id": "N14",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "RETURNS_TO",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "GIVES_ITEM",
+      "start_node_id": "N0",
+      "end_node_id": "N7",
+      "properties": {
+        "item": "knife",
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "DISCOVERS",
+      "start_node_id": "N0",
+      "end_node_id": "N12",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "OWNS_PET",
+      "start_node_id": "N3",
+      "end_node_id": "N12",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "RETURNS_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "RETURNS_TO",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "CLUB_MEMBER_ASKS",
+      "start_node_id": "N0",
+      "end_node_id": "N15",
+      "properties": {
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "HELPS_SELF_CONFIDENCE",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "context": "drama club",
+        "episode_number": "SSeason 1E03"
+      }
+    },
+    {
+      "type": "MEETS",
+      "start_node_id": "N0",
+      "end_node_id": "N7",
+      "properties": {
+        "location": "Hikarizaka High School",
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "BRIBES",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "item": "bread",
+        "from": "Nagisa's family bakery",
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "HAS_BREAD_FROM",
+      "start_node_id": "N14",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "REFORMS_CLUB_WITH_HELP",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "ATTEMPTS_REFORM_CLUB",
+      "start_node_id": "N1",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "ATTEMPTS_REFORM_CLUB",
+      "start_node_id": "N1",
+      "end_node_id": "N4",
+      "properties": {
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "ASKS_TO_JOIN_CLUB",
+      "start_node_id": "N0",
+      "end_node_id": "N5",
+      "properties": {
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "ASKS_TO_JOIN_CLUB",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "FIGHTS",
+      "start_node_id": "N8",
+      "end_node_id": "N5",
+      "properties": {
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N0",
+      "end_node_id": "N7",
+      "properties": {
+        "topic": "club",
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N1",
+      "end_node_id": "N7",
+      "properties": {
+        "topic": "club",
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "start_node_id": "N7",
+      "end_node_id": "N0",
+      "properties": {
+        "revealed_by": "Nagisa",
+        "note": "Fuko is unconscious",
+        "episode_number": "SSeason 1E04"
+      }
+    },
+    {
+      "type": "GOES_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "GOES_TO",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "HELPS",
+      "start_node_id": "N1",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "HELPS",
+      "start_node_id": "N0",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "ACTS_AS_CLASSMATE",
+      "start_node_id": "N8",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "ACTS_AS_CLASSMATE",
+      "start_node_id": "N3",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "ACTS_AS_CLASSMATE",
+      "start_node_id": "N4",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "ACTS_AS_TEACHER",
+      "start_node_id": "N10",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E05"
+      }
+    },
+    {
+      "type": "AT",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E06"
+      }
+    },
+    {
+      "type": "AT",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E06"
+      }
+    },
+    {
+      "type": "AT",
+      "start_node_id": "N5",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E06"
+      }
+    },
+    {
+      "type": "AT",
+      "start_node_id": "N7",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E06"
+      }
+    },
+    {
+      "type": "AT",
+      "start_node_id": "N8",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E06"
+      }
+    },
+    {
+      "type": "MEETS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "location": "dormitory",
+        "episode_number": "SSeason 1E07"
+      }
+    },
+    {
+      "type": "TALKS_TO_ADMINISTRATION",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E07"
+      }
+    },
+    {
+      "type": "TALKS_TO_ADMINISTRATION",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E07"
+      }
+    },
+    {
+      "type": "OBSERVES_AT_SCHOOL",
+      "start_node_id": "N8",
+      "end_node_id": "N13",
+      "properties": {
+        "subject": "Fuko Ibuki",
+        "episode_number": "SSeason 1E07"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N8",
+      "end_node_id": "N7",
+      "properties": {
+        "location": "hospital",
+        "action": "forgets after visit",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "FORGETS",
+      "start_node_id": "N8",
+      "end_node_id": "N7",
+      "properties": {
+        "frequency": "initially, then briefly remembers, then forgets again",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "FORGETS",
+      "start_node_id": "N3",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "FORGETS",
+      "start_node_id": "N4",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "REMEMBERS_WITH_HELP",
+      "start_node_id": "N5",
+      "end_node_id": "N7",
+      "properties": {
+        "helper": "Tomoya",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "HELPS_REMEMBER",
+      "start_node_id": "N0",
+      "end_node_id": "N5",
+      "properties": {
+        "about": "Fuko",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "BUYS",
+      "start_node_id": "N0",
+      "end_node_id": "N7",
+      "properties": {
+        "item": "birthday party set",
+        "with": "Nagisa",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "BUYS",
+      "start_node_id": "N1",
+      "end_node_id": "N7",
+      "properties": {
+        "item": "birthday party set",
+        "with": "Tomoya",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "DISCOVERS",
+      "start_node_id": "N0",
+      "end_node_id": "N9",
+      "properties": {
+        "discovery": "Akio has forgotten Fuko",
+        "location": "Furukawa Bakery",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "FORGETS",
+      "start_node_id": "N9",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "FORGETS_PARTIALLY",
+      "start_node_id": "N10",
+      "end_node_id": "N7",
+      "properties": {
+        "can still recall a little, but cannot see Fuko anymore": true,
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "GOES_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "with": "Nagisa, Fuko",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "GOES_TO",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "with": "Tomoya, Fuko",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "GOES_TO",
+      "start_node_id": "N7",
+      "end_node_id": "N13",
+      "properties": {
+        "with": "Tomoya, Nagisa",
+        "episode_number": "SSeason 1E08"
+      }
+    },
+    {
+      "type": "SPENDS_TIME_AT",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "event": "pre-celebration for Kouko's wedding",
+        "episode_number": "SSeason 1E09"
+      }
+    },
+    {
+      "type": "SPENDS_TIME_AT",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "event": "pre-celebration for Kouko's wedding",
+        "episode_number": "SSeason 1E09"
+      }
+    },
+    {
+      "type": "SPENDS_TIME_AT",
+      "start_node_id": "N7",
+      "end_node_id": "N13",
+      "properties": {
+        "event": "pre-celebration for Kouko's wedding",
+        "episode_number": "SSeason 1E09"
+      }
+    },
+    {
+      "type": "TALKS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "GOES_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "place": "Hikarizaka High School",
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "GOES_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "place": "Club room",
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "GOES_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N4",
+      "properties": {
+        "place": "Club room",
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "GOES_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "place": "Club room",
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "JOINS",
+      "start_node_id": "N4",
+      "end_node_id": "N15",
+      "properties": {
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "JOINS",
+      "start_node_id": "N6",
+      "end_node_id": "N15",
+      "properties": {
+        "episode_number": "SSeason 1E10"
+      }
+    },
+    {
+      "type": "PLAYS_AT",
+      "start_node_id": "N6",
+      "end_node_id": "N13",
+      "properties": {
+        "event": "violin recital",
+        "episode_number": "SSeason 1E11"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "place": "library",
+        "episode_number": "SSeason 1E11"
+      }
+    },
+    {
+      "type": "ATTENDS",
+      "start_node_id": "N9",
+      "end_node_id": "N13",
+      "properties": {
+        "event": "violin recital",
+        "episode_number": "SSeason 1E11"
+      }
+    },
+    {
+      "type": "ATTENDS",
+      "start_node_id": "N10",
+      "end_node_id": "N13",
+      "properties": {
+        "event": "violin recital",
+        "episode_number": "SSeason 1E11"
+      }
+    },
+    {
+      "type": "FRIEND",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "childhood": true,
+        "episode_number": "SSeason 1E13"
+      }
+    },
+    {
+      "type": "HELP",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "event": "garden cleaning",
+        "episode_number": "SSeason 1E13"
+      }
+    },
+    {
+      "type": "HELP",
+      "start_node_id": "N1",
+      "end_node_id": "N6",
+      "properties": {
+        "event": "garden cleaning",
+        "episode_number": "SSeason 1E13"
+      }
+    },
+    {
+      "type": "HELP",
+      "start_node_id": "N3",
+      "end_node_id": "N6",
+      "properties": {
+        "event": "garden cleaning",
+        "episode_number": "SSeason 1E13"
+      }
+    },
+    {
+      "type": "HELP",
+      "start_node_id": "N4",
+      "end_node_id": "N6",
+      "properties": {
+        "event": "garden cleaning",
+        "episode_number": "SSeason 1E13"
+      }
+    },
+    {
+      "type": "RETURNS_TO",
+      "start_node_id": "N6",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E14"
+      }
+    },
+    {
+      "type": "WAITS_FOR",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "episode_number": "SSeason 1E14"
+      }
+    },
+    {
+      "type": "WAITS_FOR",
+      "start_node_id": "N1",
+      "end_node_id": "N6",
+      "properties": {
+        "episode_number": "SSeason 1E14"
+      }
+    },
+    {
+      "type": "WAITS_FOR",
+      "start_node_id": "N3",
+      "end_node_id": "N6",
+      "properties": {
+        "episode_number": "SSeason 1E14"
+      }
+    },
+    {
+      "type": "WAITS_FOR",
+      "start_node_id": "N4",
+      "end_node_id": "N6",
+      "properties": {
+        "episode_number": "SSeason 1E14"
+      }
+    },
+    {
+      "type": "FRIENDS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E15"
+      }
+    },
+    {
+      "type": "FRIENDS_WITH",
+      "start_node_id": "N1",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SSeason 1E15"
+      }
+    },
+    {
+      "type": "HELPS",
+      "start_node_id": "N0",
+      "end_node_id": "N5",
+      "properties": {
+        "episode_number": "SSeason 1E15"
+      }
+    },
+    {
+      "type": "HELPS",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E15"
+      }
+    },
+    {
+      "type": "SIBLINGS",
+      "start_node_id": "N8",
+      "end_node_id": "N8",
+      "properties": {
+        "relation": "implied Mei is unlisted, so relationship skipped",
+        "episode_number": "SSeason 1E15"
+      }
+    },
+    {
+      "type": "APPEARS_WITH",
+      "start_node_id": "N7",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SSeason 1E15"
+      }
+    },
+    {
+      "type": "HELPS",
+      "start_node_id": "N8",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SSeason 1E16"
+      }
+    },
+    {
+      "type": "HELPS",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SSeason 1E16"
+      }
+    },
+    {
+      "type": "SCORES",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "activity": "basketball",
+        "result": "win",
+        "episode_number": "SSeason 1E16"
+      }
+    },
+    {
+      "type": "SUPPORTS",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "method": "encouragement",
+        "episode_number": "SSeason 1E16"
+      }
+    },
+    {
+      "type": "IS_ABSENT_FROM",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "reason": "collapse",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "WAKES_UP",
+      "start_node_id": "N5",
+      "end_node_id": "N0",
+      "properties": {
+        "time": "before class",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "WAKES_UP",
+      "start_node_id": "N5",
+      "end_node_id": "N8",
+      "properties": {
+        "time": "before class",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "EATS_LUNCH_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N4",
+      "properties": {
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "IS_LOCKED_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "place": "gym equipment room",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "WALKS_HOME_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N5",
+      "properties": {
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "INTERRUPTS_FIGHT",
+      "start_node_id": "N7",
+      "end_node_id": "N5",
+      "properties": {
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "IS_SUSPENDED_FROM",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "reason": "protect Tomoyo",
+        "episode_number": "SSeason 1E17"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N5",
+      "end_node_id": "N0",
+      "properties": {
+        "action": "wakes up, makes breakfast",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "ASKS_ABOUT",
+      "start_node_id": "N5",
+      "end_node_id": "N11",
+      "properties": {
+        "context": "family relationship",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N6",
+      "end_node_id": "N0",
+      "properties": {
+        "action": "brings food",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N3",
+      "end_node_id": "N0",
+      "properties": {
+        "action": "brings food",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N4",
+      "end_node_id": "N0",
+      "properties": {
+        "action": "brings food",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N7",
+      "end_node_id": "N0",
+      "properties": {
+        "action": "brings food",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "ATTENDS",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "ATTENDS",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "ATTENDS",
+      "start_node_id": "N3",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "ATTENDS",
+      "start_node_id": "N4",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "ATTENDS",
+      "start_node_id": "N5",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "PRESIDENT_OF",
+      "start_node_id": "N5",
+      "end_node_id": "N13",
+      "properties": {
+        "role": "student council president",
+        "episode_number": "SSeason 1E18"
+      }
+    },
+    {
+      "type": "LIVES_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "time": "temporarily",
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N11",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N10",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "STUDIES_AT",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "STUDIES_AT",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E19"
+      }
+    },
+    {
+      "type": "ASKS_ABOUT_PAST",
+      "start_node_id": "N0",
+      "end_node_id": "N9",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "ASKS_ABOUT_PAST",
+      "start_node_id": "N0",
+      "end_node_id": "N10",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "SURPRISE_APPEARANCE",
+      "start_node_id": "N7",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "SURPRISE_APPEARANCE",
+      "start_node_id": "N7",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "CATCHES",
+      "start_node_id": "N9",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "CATCHES",
+      "start_node_id": "N9",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "TELLS_ABOUT_PAST",
+      "start_node_id": "N9",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "PROTECTS",
+      "start_node_id": "N9",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "PROTECTS",
+      "start_node_id": "N10",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "DOES_NOT_TELL",
+      "start_node_id": "N0",
+      "end_node_id": "N10",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "DOES_NOT_TELL",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "GOES_ON_PICNIC_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "GOES_ON_PICNIC_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N9",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "GOES_ON_PICNIC_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N10",
+      "properties": {
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "CONFESSES_LOVE",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "method": "indirectly",
+        "episode_number": "SSeason 1E20"
+      }
+    },
+    {
+      "type": "PRACTICES_AT",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E21"
+      }
+    },
+    {
+      "type": "PRACTICES_AT",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E21"
+      }
+    },
+    {
+      "type": "PRACTICES_AT",
+      "start_node_id": "N9",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E21"
+      }
+    },
+    {
+      "type": "CONFESSES_LOVE",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "location": "Club room",
+        "episode_number": "SSeason 1E22"
+      }
+    },
+    {
+      "type": "ENCOURAGES",
+      "start_node_id": "N9",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E22"
+      }
+    },
+    {
+      "type": "ENCOURAGES",
+      "start_node_id": "N10",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E22"
+      }
+    },
+    {
+      "type": "ASSURES",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SSeason 1E22"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N1",
+      "end_node_id": "N14",
+      "properties": {
+        "episode_number": "SSeason 1E23"
+      }
+    },
+    {
+      "type": "DATING",
+      "start_node_id": "N0",
+      "end_node_id": "N5",
+      "properties": {
+        "status": "dating (initial, breakup, reconciliation)",
+        "episode_number": "SSeason 1E24"
+      }
+    },
+    {
+      "type": "WATCHES",
+      "start_node_id": "N0",
+      "end_node_id": "N5",
+      "properties": {
+        "context": "Tomoya watches Tomoyo's accomplishments",
+        "episode_number": "SSeason 1E24"
+      }
+    },
+    {
+      "type": "WATCHES",
+      "start_node_id": "N8",
+      "end_node_id": "N5",
+      "properties": {
+        "context": "Youhei watches Tomoyo's accomplishments",
+        "episode_number": "SSeason 1E24"
+      }
+    },
+    {
+      "type": "STUDIES_AT",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E24"
+      }
+    },
+    {
+      "type": "STUDIES_AT",
+      "start_node_id": "N5",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E24"
+      }
+    },
+    {
+      "type": "STUDIES_AT",
+      "start_node_id": "N8",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SSeason 1E24"
+      }
+    },
+    {
+      "type": "BECOMES_PRESIDENT",
+      "start_node_id": "N5",
+      "end_node_id": "N13",
+      "properties": {
+        "title": "student council president",
+        "episode_number": "SSeason 1E24"
+      }
+    },
+    {
+      "type": "GIRLFRIEND_OF",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "WATCHES",
+      "start_node_id": "N0",
+      "end_node_id": "N9",
+      "properties": {
+        "activity": "play baseball",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "WATCHES",
+      "start_node_id": "N1",
+      "end_node_id": "N9",
+      "properties": {
+        "activity": "play baseball",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "RECRUITS",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "for": "baseball team",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "RECRUITS",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "for": "baseball team",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "RECRUITS",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "for": "baseball team",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "RECRUITS",
+      "start_node_id": "N0",
+      "end_node_id": "N5",
+      "properties": {
+        "for": "baseball team",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "INJURED_BY",
+      "start_node_id": "N9",
+      "end_node_id": "N9",
+      "properties": {
+        "cause": "flying bat",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "PITCHER_FOR",
+      "start_node_id": "N1",
+      "end_node_id": "N9",
+      "properties": {
+        "fills_for": "Akio Furukawa",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "SCORES_RBI",
+      "start_node_id": "N0",
+      "end_node_id": "N0",
+      "properties": {
+        "result": "win game",
+        "episode_number": "SAfter StoryE01"
+      }
+    },
+    {
+      "type": "ASKS",
+      "start_node_id": "N8",
+      "end_node_id": "N6",
+      "properties": {
+        "episode_number": "SAfter StoryE02"
+      }
+    },
+    {
+      "type": "ASKS",
+      "start_node_id": "N8",
+      "end_node_id": "N5",
+      "properties": {
+        "episode_number": "SAfter StoryE02"
+      }
+    },
+    {
+      "type": "ASKS",
+      "start_node_id": "N8",
+      "end_node_id": "N4",
+      "properties": {
+        "episode_number": "SAfter StoryE02"
+      }
+    },
+    {
+      "type": "AGREES_TO_HELP",
+      "start_node_id": "N10",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE02"
+      }
+    },
+    {
+      "type": "POSING_AS_STUDENT",
+      "start_node_id": "N10",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE02"
+      }
+    },
+    {
+      "type": "GOES_ON_DATE_WITH",
+      "start_node_id": "N8",
+      "end_node_id": "N10",
+      "properties": {
+        "episode_number": "SAfter StoryE03"
+      }
+    },
+    {
+      "type": "ACCOMPANIED_BY",
+      "start_node_id": "N8",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE03"
+      }
+    },
+    {
+      "type": "ACCOMPANIED_BY",
+      "start_node_id": "N8",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE03"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE04"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N8",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE04"
+      }
+    },
+    {
+      "type": "KNOWS",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE04"
+      }
+    },
+    {
+      "type": "KNOWS",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE04"
+      }
+    },
+    {
+      "type": "KNOWS",
+      "start_node_id": "N1",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE04"
+      }
+    },
+    {
+      "type": "KNOWS",
+      "start_node_id": "N8",
+      "end_node_id": "N10",
+      "properties": {
+        "discovery": "Youhei finds out Sanae is Nagisa's mother",
+        "episode_number": "SAfter StoryE04"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE05"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N1",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE05"
+      }
+    },
+    {
+      "type": "TALKS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N5",
+      "properties": {
+        "episode_number": "SAfter StoryE05"
+      }
+    },
+    {
+      "type": "TALKS_WITH",
+      "start_node_id": "N1",
+      "end_node_id": "N5",
+      "properties": {
+        "episode_number": "SAfter StoryE05"
+      }
+    },
+    {
+      "type": "GOES_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE06"
+      }
+    },
+    {
+      "type": "GOES_TOGETHER",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "event": "autumn festival",
+        "episode_number": "SAfter StoryE06"
+      }
+    },
+    {
+      "type": "INTERACTS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE07"
+      }
+    },
+    {
+      "type": "INTERACTS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE07"
+      }
+    },
+    {
+      "type": "INTERACTS_WITH",
+      "start_node_id": "N1",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE07"
+      }
+    },
+    {
+      "type": "SAVES",
+      "start_node_id": "N5",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE07"
+      }
+    },
+    {
+      "type": "SAVES",
+      "start_node_id": "N5",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE07"
+      }
+    },
+    {
+      "type": "EATS",
+      "start_node_id": "N8",
+      "end_node_id": "N10",
+      "properties": {
+        "object": "bread",
+        "episode_number": "SAfter StoryE08"
+      }
+    },
+    {
+      "type": "TALKS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE08"
+      }
+    },
+    {
+      "type": "TALKS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE08"
+      }
+    },
+    {
+      "type": "GRADUATES_FROM",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE09"
+      }
+    },
+    {
+      "type": "GRADUATES_FROM",
+      "start_node_id": "N3",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE09"
+      }
+    },
+    {
+      "type": "GRADUATES_FROM",
+      "start_node_id": "N4",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE09"
+      }
+    },
+    {
+      "type": "GRADUATES_FROM",
+      "start_node_id": "N6",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE09"
+      }
+    },
+    {
+      "type": "GRADUATES_FROM",
+      "start_node_id": "N8",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE09"
+      }
+    },
+    {
+      "type": "REPEATS_YEAR_AT",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE09"
+      }
+    },
+    {
+      "type": "BRINGS_GIFT_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "gift": "stuffed dango",
+        "episode_number": "SAfter StoryE09"
+      }
+    },
+    {
+      "type": "WORKS_AT",
+      "start_node_id": "N0",
+      "end_node_id": "N14",
+      "properties": {
+        "episode_number": "SAfter StoryE10"
+      }
+    },
+    {
+      "type": "LIVES_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "status": "moved_out",
+        "episode_number": "SAfter StoryE10"
+      }
+    },
+    {
+      "type": "HELPED_BY",
+      "start_node_id": "N0",
+      "end_node_id": "N4",
+      "properties": {
+        "episode_number": "SAfter StoryE10"
+      }
+    },
+    {
+      "type": "HAS_DINNER_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE10"
+      }
+    },
+    {
+      "type": "PROMISES_TO_JOIN",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "event": "Founder's Festival",
+        "episode_number": "SAfter StoryE11"
+      }
+    },
+    {
+      "type": "HAS_RELATIONSHIP_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "status": "strained but understanding",
+        "episode_number": "SAfter StoryE11"
+      }
+    },
+    {
+      "type": "PROPOSES_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE12"
+      }
+    },
+    {
+      "type": "CALMS",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE12"
+      }
+    },
+    {
+      "type": "HAS_FATHER",
+      "start_node_id": "N0",
+      "end_node_id": "N11",
+      "properties": {
+        "episode_number": "SAfter StoryE12"
+      }
+    },
+    {
+      "type": "REQUESTS_PERMISSION_TO_MARRY",
+      "start_node_id": "N0",
+      "end_node_id": "N9",
+      "properties": {
+        "episode_number": "SAfter StoryE13"
+      }
+    },
+    {
+      "type": "MARRIED_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE13"
+      }
+    },
+    {
+      "type": "MARRIED_TO",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE13"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N9",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE13"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N10",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE13"
+      }
+    },
+    {
+      "type": "NOTIFIES",
+      "start_node_id": "N0",
+      "end_node_id": "N11",
+      "properties": {
+        "about": "Nagisa's graduation and marriage",
+        "episode_number": "SAfter StoryE13"
+      }
+    },
+    {
+      "type": "GRADUATES_FROM",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE13"
+      }
+    },
+    {
+      "type": "MARRIED_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE14"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N0",
+      "end_node_id": "N14",
+      "properties": {
+        "episode_number": "SAfter StoryE14"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N1",
+      "end_node_id": "N14",
+      "properties": {
+        "episode_number": "SAfter StoryE14"
+      }
+    },
+    {
+      "type": "WORKS_AT_NEAR",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE14"
+      }
+    },
+    {
+      "type": "ATTENDED",
+      "start_node_id": "N0",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE14"
+      }
+    },
+    {
+      "type": "ATTENDED",
+      "start_node_id": "N1",
+      "end_node_id": "N13",
+      "properties": {
+        "episode_number": "SAfter StoryE14"
+      }
+    },
+    {
+      "type": "EXPECTING_CHILD",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "EXPECTING_CHILD",
+      "start_node_id": "N1",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "MARRIED_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N9",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N10",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "SUPPORTS",
+      "start_node_id": "N9",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "SUPPORTS",
+      "start_node_id": "N10",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "SUPPORTS",
+      "start_node_id": "N9",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "SUPPORTS",
+      "start_node_id": "N10",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE15"
+      }
+    },
+    {
+      "type": "FRIENDS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N6",
+      "properties": {
+        "episode_number": "SAfter StoryE16"
+      }
+    },
+    {
+      "type": "MARRIED_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE16"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE16"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N1",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE16"
+      }
+    },
+    {
+      "type": "CARES_FOR",
+      "start_node_id": "N9",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE17"
+      }
+    },
+    {
+      "type": "CARES_FOR",
+      "start_node_id": "N10",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE17"
+      }
+    },
+    {
+      "type": "GOES_ON_TRIP_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE17"
+      }
+    },
+    {
+      "type": "GOES_ON_TRIP_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N10",
+      "properties": {
+        "episode_number": "SAfter StoryE17"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE18"
+      }
+    },
+    {
+      "type": "CHILD_OF",
+      "start_node_id": "N2",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE18"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N11",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE18"
+      }
+    },
+    {
+      "type": "CHILD_OF",
+      "start_node_id": "N0",
+      "end_node_id": "N11",
+      "properties": {
+        "episode_number": "SAfter StoryE18"
+      }
+    },
+    {
+      "type": "SPOUSE_OF",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE18"
+      }
+    },
+    {
+      "type": "MENTIONS",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE18"
+      }
+    },
+    {
+      "type": "STAYS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N9",
+      "properties": {
+        "episode_number": "SAfter StoryE19"
+      }
+    },
+    {
+      "type": "STAYS_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N10",
+      "properties": {
+        "episode_number": "SAfter StoryE19"
+      }
+    },
+    {
+      "type": "STAYS_WITH",
+      "start_node_id": "N2",
+      "end_node_id": "N9",
+      "properties": {
+        "episode_number": "SAfter StoryE19"
+      }
+    },
+    {
+      "type": "STAYS_WITH",
+      "start_node_id": "N2",
+      "end_node_id": "N10",
+      "properties": {
+        "episode_number": "SAfter StoryE19"
+      }
+    },
+    {
+      "type": "LIVES_WITH",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE19"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N0",
+      "end_node_id": "N11",
+      "properties": {
+        "episode_number": "SAfter StoryE19"
+      }
+    },
+    {
+      "type": "VISITS",
+      "start_node_id": "N2",
+      "end_node_id": "N11",
+      "properties": {
+        "episode_number": "SAfter StoryE19"
+      }
+    },
+    {
+      "type": "BRINGS_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "place": "Hikarizaka High School",
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "MEETS",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "context": "at school",
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "HAS_PET",
+      "start_node_id": "N3",
+      "end_node_id": "N12",
+      "properties": {
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "REACQUAINTS",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "FRIEND_OF",
+      "start_node_id": "N2",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "PLAYS_WITH",
+      "start_node_id": "N7",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "LULLS_TO_SLEEP",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "song": "Dango Daikazoku",
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "REMEMBERED_BY",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "PREPARES_FOR",
+      "start_node_id": "N0",
+      "end_node_id": "N14",
+      "properties": {
+        "event": "meet",
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "ENCOURAGES",
+      "start_node_id": "N2",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE20"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE21"
+      }
+    },
+    {
+      "type": "MARRIED_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE21"
+      }
+    },
+    {
+      "type": "CHILD_OF",
+      "start_node_id": "N2",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE21"
+      }
+    },
+    {
+      "type": "CHILD_OF",
+      "start_node_id": "N2",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE21"
+      }
+    },
+    {
+      "type": "OFFERS_SUPPORT",
+      "start_node_id": "N9",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE21"
+      }
+    },
+    {
+      "type": "SUPPORTS",
+      "start_node_id": "N10",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE21"
+      }
+    },
+    {
+      "type": "RELATIVE_OF",
+      "start_node_id": "N9",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE21"
+      }
+    },
+    {
+      "type": "RELATIVE_OF",
+      "start_node_id": "N10",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE21"
+      }
+    },
+    {
+      "type": "MARRIED_TO",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE22"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE22"
+      }
+    },
+    {
+      "type": "PARENT_OF",
+      "start_node_id": "N1",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE22"
+      }
+    },
+    {
+      "type": "CLASSMATE_OF",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE23"
+      }
+    },
+    {
+      "type": "FRIEND_OF",
+      "start_node_id": "N0",
+      "end_node_id": "N8",
+      "properties": {
+        "episode_number": "SAfter StoryE23"
+      }
+    },
+    {
+      "type": "PRANKS_ON",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SAfter StoryE23"
+      }
+    },
+    {
+      "type": "PRANKS_ON",
+      "start_node_id": "N8",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SAfter StoryE23"
+      }
+    },
+    {
+      "type": "PRANKS_ON",
+      "start_node_id": "N0",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE23"
+      }
+    },
+    {
+      "type": "PRANKS_ON",
+      "start_node_id": "N8",
+      "end_node_id": "N1",
+      "properties": {
+        "episode_number": "SAfter StoryE23"
+      }
+    },
+    {
+      "type": "TELLS",
+      "start_node_id": "N0",
+      "end_node_id": "N2",
+      "properties": {
+        "about": "past events",
+        "episode_number": "SAfter StoryE24"
+      }
+    },
+    {
+      "type": "CALLS",
+      "start_node_id": "N1",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE24"
+      }
+    },
+    {
+      "type": "CALLS",
+      "start_node_id": "N1",
+      "end_node_id": "N2",
+      "properties": {
+        "episode_number": "SAfter StoryE24"
+      }
+    },
+    {
+      "type": "CALLS",
+      "start_node_id": "N1",
+      "end_node_id": "N7",
+      "properties": {
+        "episode_number": "SAfter StoryE24"
+      }
+    },
+    {
+      "type": "DATES",
+      "start_node_id": "N4",
+      "end_node_id": "N0",
+      "properties": {
+        "status": "started",
+        "episode_number": "SAfter StoryE25"
+      }
+    },
+    {
+      "type": "CONFESSES_LOVE",
+      "start_node_id": "N4",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE25"
+      }
+    },
+    {
+      "type": "FEELS_LOVE",
+      "start_node_id": "N3",
+      "end_node_id": "N0",
+      "properties": {
+        "confessed": false,
+        "episode_number": "SAfter StoryE25"
+      }
+    },
+    {
+      "type": "ADMITS_LOVE",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "episode_number": "SAfter StoryE25"
+      }
+    },
+    {
+      "type": "BREAKS_UP",
+      "start_node_id": "N4",
+      "end_node_id": "N0",
+      "properties": {
+        "episode_number": "SAfter StoryE25"
+      }
+    },
+    {
+      "type": "DATES",
+      "start_node_id": "N0",
+      "end_node_id": "N3",
+      "properties": {
+        "status": "official",
+        "episode_number": "SAfter StoryE25"
+      }
+    }
+  ]
+}
